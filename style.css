@@ -55,7 +55,7 @@ div > p{
 
 
 
-#bloco01{
+#conteiner1{
     background: black url('imagem/girassol.webp') bottom center no-repeat fixed;
     background-size: cover;
     height: 500px;
@@ -63,40 +63,42 @@ div > p{
     
 }
 
-#bloco02{
-    background: black url('imagem/livro.webp') top center no-repeat fixed;
+#container2{
+    background: black url('imagem/livro.webp') bottom center no-repeat fixed;
     background-size: cover;
     height: 500px;
     width: 100%;
 }
 
-.quadro{
+#conteudo1{
     background-color: rgba(0, 0, 0, 0.433);
-    position: relative;
     height: 300px;
     width: 200px;
     color: white;
     font-family: 'Kite One', sans-serif;;
     font-size: 1.35em;
     padding: 10px;
-
-    top: 89%;
-    left: 13%;
-}
-
-
-#pos01{
     position: absolute;
-
-
+    top: 20%vh;
+    left: 20%;
+    transform: translate(+10%, +15%);
 }
 
-#pos02{
+#conteudo2{
+    background-color: rgba(0, 0, 0, 0.433);
+    height: 300px;
+    width: 200px;
+    color: white;
+    font-family: 'Kite One', sans-serif;;
+    font-size: 1.35em;
+    padding: 10px;
     position: absolute;
-    transform: translateY(385%);
-    
-
+    top: 50%vh;
+    left: 20%;
+    transform: translate(15px, +20%);
 }
+
+
 .pad{
     padding-top: 50px;
     padding-right: 55px;
