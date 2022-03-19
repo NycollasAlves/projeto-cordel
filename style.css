@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-@import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Kite+One&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Candal&family=Kite+One&display=swap');
 
@@ -9,121 +9,236 @@
     margin: 0px;
 }
 
-.res{
-    min-width: 20%vw;
+body {
     max-width: 100%vw;
-    max-height: 100%vh;
-    min-height: 550px;
 }
 
-body{
-    background-color: white;
+@media (max-width: 560px) {
+    header
+    {
+        width: 100vw;
+        height: 27vh;
+    }
 }
 
-header{
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    line-height: 2.25em;
+@media (min-width: 560px) {
+    header
+    {
+        width: 100vw;
+        height: 33vh;
+
+    }
 }
 
-header > h2 > strong{
-    font-family: 'Candal', sans-serif;
-}
-
-header > h2{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-header > h1 {
-    font-family: 'Candal', sans-serif;;
-    font-size: 2.35em;
+@media (min-width: 965px) {
+    header 
+    {
+        width: 100vw;
+        height: 40vh;
+    }
 }
 
 
-div > p{
-    font-family: 'Kite One', sans-serif;
-    font-size: 1.25em;
-    width: 200px;
-    color: black;
-    padding-top: 20px;
-    padding-right: 0px;
-    padding-left: 20px;
-}
+@media (max-width: 560px) {
+    header > h1
+    {
+        font-size: 2.5em;
+        font-family: 'Candal', sans-serif;
+        padding-top: 40px;
+    }
 
+    #imagem1 {
+        background: black url('imagem/background001.jpg') right bottom no-repeat fixed;
+        background-size: cover;
+        color: white;
+        height: 350px;
+        width: 100%vw;}
+    
+    #imagem2 {
+        background: black url('imagem/background002.jpg') right bottom no-repeat fixed;
+        background-size: cover;
+        color: white;
+        height: 350px;
+        width: 100%vw; }
 
+    section {
+        font-size: 1.2em;
 
-#conteiner1{
-    background: black url('imagem/girassol.webp') bottom center no-repeat fixed;
-    background-size: cover;
-    height: 500px;
-    width: 100%;
+        }
+
+    section > p {
+        background-color: rgba(0, 0, 0, 0.33); 
+        height: 235px;
+        width: 200px;
+        line-height: 30px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-bottom: 5px;
+        }
+
+    .estr {
+        width: 165px;
+        padding-top: 50px;
+        padding-right: 0px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        font-size: 1.2em;
+        font-weight: bold;
+            }
+
+    footer {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-size: 1.1em;
+        }
     
 }
 
-#container2{
-    background: black url('imagem/livro.webp') bottom center no-repeat fixed;
-    background-size: cover;
-    height: 500px;
-    width: 100%;
-}
+@media (min-width: 560px) {
+    header > h1 
+    {
+        font-size: 3.5em;
+        font-family: 'Candal', sans-serif;
+        padding-top: 50px;
+    }
 
-#conteudo1{
-    background-color: rgba(0, 0, 0, 0.433);
-    height: 300px;
-    width: 200px;
-    color: white;
-    font-family: 'Kite One', sans-serif;;
-    font-size: 1.35em;
-    padding: 10px;
-    position: absolute;
-    top: 20%vh;
-    left: 20%;
-    transform: translate(+10%, +15%);
-}
+    #imagem1 {
+        background: black url('imagem/background001.jpg') right bottom no-repeat fixed;
+        background-size: cover;
+        color: white;
+        height: 450px;
+        width: 100%vw;}
+    
+    #imagem2 {
+        background: black url('imagem/background002.jpg') right bottom no-repeat fixed;
+        background-size: cover;
+        color: white;
+        height: 450px;
+        width: 100%vw; }
 
-#conteudo2{
-    background-color: rgba(0, 0, 0, 0.433);
-    height: 300px;
-    width: 200px;
-    color: white;
-    font-family: 'Kite One', sans-serif;;
-    font-size: 1.35em;
-    padding: 10px;
-    position: absolute;
-    top: 50%vh;
-    left: 20%;
-    transform: translate(15px, +20%);
-}
+    section {
+        font-size: 2em;
+        }
+
+    section > p {
+        background-color: rgba(0, 0, 0, 0.323);
+        height: 400px;
+        width: 300px;
+        line-height: 50px; 
+        }
+
+    .estr {
+        width: 300px;
+        padding-top: 60px;
+        padding-right: 0px;
+        padding-bottom: 90px;
+        padding-left: 50px;
+        font-size: 2.2em;
+        font-weight: lighter;
+        }
+
+    
+    footer {
+        background-color: black;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    footer > p > strong {
+        color: red;
+    }
+
+    }
 
 
-.pad{
-    padding-top: 50px;
-    padding-right: 55px;
-    padding-bottom: 55px;
-    padding-left: 55px;
-}
+@media (min-width: 965px) {
+    header > h1
+    {
+        font-size: 6em;
+        font-family: 'Candal', sans-serif;
+        font-weight: bolder;
+        padding-top: 40px;
+    }
+
+    #imagem1 {
+        background: black url('imagem/background001.jpg') right bottom no-repeat fixed;
+        background-size: cover;
+        color: white;
+        height: 700px;
+        width: 100%vw;
+    }
+    
+    #imagem2 {
+        background: black url('imagem/background002.jpg') right bottom no-repeat fixed;
+        background-size: cover;
+        color: white;
+        height: 700px;
+        width: 100%vw;
+    }
 
 
+    section {
+        font-size: 2.8em;
+    }
 
-footer{
+    section > p {
+        background-color: rgba(0, 0, 0, 0.316); 
+        height: 630px;
+        width: 450px;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        line-height: 80px;
+    }
+
+    .estr {
+        width: 465px;
+        padding-top: 60px;
+        padding-right: 0px;
+        padding-bottom: 100px;
+        padding-left: 50px;
+        font-size: 3em;
+        line-height: 90px;
+        font-weight: lighter;
+    }
+        
+    footer {
+        background-color: black;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    }
+
+header {
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 1.25em;
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 
-footer > strong {
-    color: red;
+header > h2{
+    font-size: 16px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
-#rodp{
-    max-width: 100%vw;
-    min-width: 20%vw;
+header > h2 > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
 
+main p {
+    font-family: 'Kite One', sans-serif;
+}
 
+main section {
+    font-family: 'Kite One', sans-serif;
 }
