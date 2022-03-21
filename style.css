@@ -51,6 +51,7 @@ body {
     #imagem1 {
         background: black url('imagem/background001.jpg') right bottom no-repeat fixed;
         background-size: cover;
+        box-shadow: 1px 0px 8px 3px rgba(0, 0, 0, 0.685);
         color: white;
         height: 350px;
         width: 100%vw;
@@ -60,6 +61,7 @@ body {
     #imagem2 {
         background: black url('imagem/background002.jpg') right bottom no-repeat fixed;
         background-size: cover;
+        box-shadow: 1px 0px 8px 3px rgba(0, 0, 0, 0.685);
         color: white;
         height: 350px;
         width: 100%vw;
@@ -73,8 +75,8 @@ body {
 
     section > .bloco {
         background-color: rgba(0, 0, 0, 0.631); 
-        height: 235px;
-        width: 230px;
+        height: 240px;
+        width: 225px;
         line-height: 30px;
         letter-spacing: 3px;
         padding-top: 10px;
@@ -119,6 +121,7 @@ body {
     #imagem1 {
         background: black url('imagem/background001.jpg') right bottom no-repeat fixed;
         background-size: cover;
+        box-shadow: 1px 0px 8px 3px rgba(0, 0, 0, 0.685);
         color: white;
         height: 480px;
         width: 100%vw;
@@ -128,6 +131,7 @@ body {
     #imagem2 {
         background: black url('imagem/background002.jpg') right bottom no-repeat fixed;
         background-size: cover;
+        box-shadow: 1px 0px 8px 3px rgba(0, 0, 0, 0.685);
         color: white;
         height: 480px;
         width: 100%vw; 
@@ -191,6 +195,7 @@ body {
     #imagem1 {
         background: black url('imagem/background001.jpg') right bottom no-repeat fixed;
         background-size: cover;
+        box-shadow: 1px 0px 8px 3px rgba(0, 0, 0, 0.685);
         color: white;
         height: 700px;
         width: 100%vw;
@@ -201,6 +206,7 @@ body {
     #imagem2 {
         background: black url('imagem/background002.jpg') right bottom no-repeat fixed;
         background-size: cover;
+        box-shadow: 1px 0px 8px 3px rgba(0, 0, 0, 0.685);
         color: white;
         height: 700px;
         width: 100%vw;
